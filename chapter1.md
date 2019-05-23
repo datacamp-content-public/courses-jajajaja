@@ -14,17 +14,17 @@ xp: 100
 skills: 2
 ```
 
-This is an example exercise.
+Apply a random regressor. You can get this from scikit lego. 
 
 `@instructions`
-
+Apply a random regressor. You can get this from scikit lego.
 
 `@hint`
-
+Apply a random regressor. You can get this from scikit lego.
 
 `@pre_exercise_code`
 ```{python}
-
+from sklearn.dummy import RandomRegressor
 ```
 
 `@sample_code`
@@ -34,7 +34,7 @@ This is an example exercise.
 
 `@solution`
 ```{python}
-
+RandomRegressor()
 ```
 
 `@sct`
